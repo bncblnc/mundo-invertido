@@ -1,5 +1,5 @@
 let nowPlaying;
-let pause = false;
+let pause = true;
 
 export function playAudio(music) {
   if (nowPlaying) nowPlaying.pause();
@@ -11,11 +11,11 @@ export function playAudio(music) {
 }
 
 export function audioControl(e) {
-  const btn = e.target.closest('button');
-  btn.classList.toggle('audio-on');
-  btn.classList.toggle('audio-off');
+  const btn = e.target.closest("button");
+  btn.classList.toggle("audio-on");
+  btn.classList.toggle("audio-off");
 
-  if (btn.classList.contains('audio-off')) {
+  if (btn.classList.contains("audio-off")) {
     nowPlaying.pause();
     pause = true;
   } else {
