@@ -29,5 +29,4 @@ document.addEventListener('keydown', function (e) {
   }
 });
 
-initAudio();
-// window.addEventListener('click', initAudio);
+window.addEventListener('click', initAudio);
