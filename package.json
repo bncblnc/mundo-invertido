@@ -1,0 +1,15 @@
+{
+  "name": "mundo-invertido",
+  "version": "1.0.0",
+  "description": "semana front-end DIO - mundo-invertido",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Bianca Blanco",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^9.9.3",
+    "parcel": "^2.7.0"
+  }
+}
