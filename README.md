@@ -1,4 +1,4 @@
-<div align="center"><img  alt="Js" height="100"  src="https://mundo-invertido-chi.vercel.app/logo.a6f615bd.svg"></div>
+<div align="center"><img  alt="logo" height="100"  src="https://mundo-invertido-chi.vercel.app/logo.a6f615bd.svg"></div>
 
 <div align="center">
     <p> Projeto de uma landing page com a temática da série Stranger Things, que conta com um theme switcher (light e dark) e com integração do Firebase.</p>
